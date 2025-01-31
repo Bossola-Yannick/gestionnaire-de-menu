@@ -153,9 +153,9 @@ if (isset($_POST['valid'])) {
                             <td class="food-item"><img class="food-present" src=".<?= $plat['image'] ?>" alt=<?= $plat['nom'] ?>></td>
                             <td class="food-item"><?= $plat['nom'] ?></td>
                             <td class="food-item"><?= $plat['description'] ?></td>
-                            <td class="food-item small"><?= $plat['prix'] ?> €</td>
-                            <td class="food-item small"><?= $plat['categorie'] ?></td>
-                            <td class="food-item small">
+                            <td class="food-item "><?= $plat['prix'] ?> €</td>
+                            <td class="food-item "><?= $plat['categorie'] ?></td>
+                            <td class="food-item ">
                                 <form action="" method="get">
                                     <button value=<?= $plat['id'] ?> name="delete-plat" class="food-form-submit">Supprimer</button>
                                 </form>
